@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -14,9 +14,12 @@
 		1928E3FB23015F2700AE0147 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1928E3F923015F2700AE0147 /* LaunchScreen.storyboard */; };
 		1928E40723015FA700AE0147 /* RecordVideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1928E40623015FA700AE0147 /* RecordVideoViewController.swift */; };
 		1928E40A2301626500AE0147 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1928E4092301626500AE0147 /* AVFoundation.framework */; };
+		1928E40C230292A000AE0147 /* GPUImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1928E40B230292A000AE0147 /* GPUImageViewController.swift */; };
+		4769141943756AF8B241E873 /* Pods_zhibo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A34113144791ED3538C9E86F /* Pods_zhibo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		17668CD1BB6685ABE4A96169 /* Pods-zhibo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-zhibo.release.xcconfig"; path = "Target Support Files/Pods-zhibo/Pods-zhibo.release.xcconfig"; sourceTree = "<group>"; };
 		1928E3ED23015F2300AE0147 /* zhibo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = zhibo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1928E3F023015F2300AE0147 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1928E3F223015F2300AE0147 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -26,6 +29,9 @@
 		1928E3FC23015F2700AE0147 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1928E40623015FA700AE0147 /* RecordVideoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordVideoViewController.swift; sourceTree = "<group>"; };
 		1928E4092301626500AE0147 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		1928E40B230292A000AE0147 /* GPUImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GPUImageViewController.swift; sourceTree = "<group>"; };
+		47A51C346E63216796F61001 /* Pods-zhibo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-zhibo.debug.xcconfig"; path = "Target Support Files/Pods-zhibo/Pods-zhibo.debug.xcconfig"; sourceTree = "<group>"; };
+		A34113144791ED3538C9E86F /* Pods_zhibo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_zhibo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -34,6 +40,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1928E40A2301626500AE0147 /* AVFoundation.framework in Frameworks */,
+				4769141943756AF8B241E873 /* Pods_zhibo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -46,6 +53,7 @@
 				1928E3EF23015F2300AE0147 /* zhibo */,
 				1928E3EE23015F2300AE0147 /* Products */,
 				1928E4082301626500AE0147 /* Frameworks */,
+				B7C7B167DAFE739BFA424682 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -67,6 +75,7 @@
 				1928E3F923015F2700AE0147 /* LaunchScreen.storyboard */,
 				1928E3FC23015F2700AE0147 /* Info.plist */,
 				1928E40623015FA700AE0147 /* RecordVideoViewController.swift */,
+				1928E40B230292A000AE0147 /* GPUImageViewController.swift */,
 			);
 			path = zhibo;
 			sourceTree = "<group>";
@@ -75,8 +84,18 @@
 			isa = PBXGroup;
 			children = (
 				1928E4092301626500AE0147 /* AVFoundation.framework */,
+				A34113144791ED3538C9E86F /* Pods_zhibo.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B7C7B167DAFE739BFA424682 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				47A51C346E63216796F61001 /* Pods-zhibo.debug.xcconfig */,
+				17668CD1BB6685ABE4A96169 /* Pods-zhibo.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -86,9 +105,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1928E3FF23015F2700AE0147 /* Build configuration list for PBXNativeTarget "zhibo" */;
 			buildPhases = (
+				BA59D43009819124CFC49168 /* [CP] Check Pods Manifest.lock */,
 				1928E3E923015F2300AE0147 /* Sources */,
 				1928E3EA23015F2300AE0147 /* Frameworks */,
 				1928E3EB23015F2300AE0147 /* Resources */,
+				5B506BE8A3D943DE7D76022D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -145,12 +166,55 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5B506BE8A3D943DE7D76022D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-zhibo/Pods-zhibo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-zhibo/Pods-zhibo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-zhibo/Pods-zhibo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BA59D43009819124CFC49168 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-zhibo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1928E3E923015F2300AE0147 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				1928E3F323015F2300AE0147 /* ViewController.swift in Sources */,
+				1928E40C230292A000AE0147 /* GPUImageViewController.swift in Sources */,
 				1928E40723015FA700AE0147 /* RecordVideoViewController.swift in Sources */,
 				1928E3F123015F2300AE0147 /* AppDelegate.swift in Sources */,
 			);
@@ -296,6 +360,7 @@
 		};
 		1928E40023015F2700AE0147 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 47A51C346E63216796F61001 /* Pods-zhibo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -315,6 +380,7 @@
 		};
 		1928E40123015F2700AE0147 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17668CD1BB6685ABE4A96169 /* Pods-zhibo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
