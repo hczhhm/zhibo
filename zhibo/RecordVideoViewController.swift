@@ -54,7 +54,7 @@ class RecordVideoViewController: UIViewController,AVCaptureVideoDataOutputSample
     //视频采集
     fileprivate func setUpVideoInputOutput(){
         //1.获取视频输入设备列表
-        let devices = AVCaptureDevice.DiscoverySession(deviceTypes:[.builtInWideAngleCamera], mediaType: .video, position: .front).devices
+        let devices = AVCaptureDevice.DiscoverySession(deviceTypes:[.builtInWideAngleCamera], mediaType: .video, position: .back).devices
         guard let device = devices.filter({$0.position == .back}).first else {return}
          //3.创建输入
       
@@ -109,6 +109,7 @@ class RecordVideoViewController: UIViewController,AVCaptureVideoDataOutputSample
         }
         session.commitConfiguration()
     }
+    
     //MARK: SampleBufferDelegate
     func captureOutput(_ output: AVCaptureOutput, didOutput sampleBuffer: CMSampleBuffer, from connection: AVCaptureConnection) {
         if videoOutput?.connection(with: .video) == connection {

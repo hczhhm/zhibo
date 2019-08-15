@@ -1,20 +1,20 @@
 PODS:
-  - GPUImage (0.1.7)
+  - LFLiveKit (2.6)
   - SnapKit (4.2.0)
 
 DEPENDENCIES:
-  - GPUImage
+  - LFLiveKit
   - SnapKit
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
-    - GPUImage
+    - LFLiveKit
     - SnapKit
 
 SPEC CHECKSUMS:
-  GPUImage: 733a5f0fab92df9de1c37ba9df520a833ccb406d
+  LFLiveKit: 2219563721f8aa0f188effc3395a06e2d53b23f2
   SnapKit: fe8a619752f3f27075cc9a90244d75c6c3f27e2a
 
-PODFILE CHECKSUM: e0991aee9acf68aa5761ae446549076489b71800
+PODFILE CHECKSUM: e16d7ae97fa4f3c234f598f7a49bdec3baa032f7
 
 COCOAPODS: 1.7.1

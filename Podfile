@@ -4,5 +4,6 @@ inhibit_all_warnings!
 use_frameworks!
 target 'zhibo' do
  pod 'SnapKit'
- pod 'GPUImage'
+# pod 'GPUImage'
+ pod 'LFLiveKit'
 end
