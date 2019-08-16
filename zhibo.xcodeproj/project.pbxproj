@@ -7,37 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1928E3F123015F2300AE0147 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1928E3F023015F2300AE0147 /* AppDelegate.swift */; };
-		1928E3F323015F2300AE0147 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1928E3F223015F2300AE0147 /* ViewController.swift */; };
 		1928E3F623015F2300AE0147 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1928E3F423015F2300AE0147 /* Main.storyboard */; };
 		1928E3F823015F2700AE0147 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1928E3F723015F2700AE0147 /* Assets.xcassets */; };
 		1928E3FB23015F2700AE0147 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1928E3F923015F2700AE0147 /* LaunchScreen.storyboard */; };
-		1928E40723015FA700AE0147 /* RecordVideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1928E40623015FA700AE0147 /* RecordVideoViewController.swift */; };
 		1928E40A2301626500AE0147 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1928E4092301626500AE0147 /* AVFoundation.framework */; };
-		1928E40C230292A000AE0147 /* GPUImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1928E40B230292A000AE0147 /* GPUImageViewController.swift */; };
-		1981DFC823040BE800B25C6A /* VideoPlugFlowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1981DFC723040BE800B25C6A /* VideoPlugFlowViewController.swift */; };
-		1981DFCE2305290A00B25C6A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1981DFCD2305290A00B25C6A /* ViewController.m */; };
-		1981DFD02305400A00B25C6A /* VideoPullFlowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1981DFCF2305400A00B25C6A /* VideoPullFlowViewController.swift */; };
+		1980CB5023069C10001A238F /* IJKMediaFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1980CB4F23069C10001A238F /* IJKMediaFramework.framework */; };
+		1980CB5C23069CBB001A238F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1980CB5223069CBB001A238F /* AppDelegate.swift */; };
+		1980CB5D23069CBB001A238F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1980CB5423069CBB001A238F /* ViewController.swift */; };
+		1980CB5F23069CBB001A238F /* GPUImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1980CB5623069CBB001A238F /* GPUImageViewController.swift */; };
+		1980CB6023069CBB001A238F /* RecordVideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1980CB5823069CBB001A238F /* RecordVideoViewController.swift */; };
+		1980CB6123069CBB001A238F /* VideoPlugFlowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1980CB5923069CBB001A238F /* VideoPlugFlowViewController.swift */; };
+		1980CB6223069CBB001A238F /* VideoPullFlowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1980CB5A23069CBB001A238F /* VideoPullFlowViewController.swift */; };
 		4769141943756AF8B241E873 /* Pods_zhibo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A34113144791ED3538C9E86F /* Pods_zhibo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		17668CD1BB6685ABE4A96169 /* Pods-zhibo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-zhibo.release.xcconfig"; path = "Target Support Files/Pods-zhibo/Pods-zhibo.release.xcconfig"; sourceTree = "<group>"; };
 		1928E3ED23015F2300AE0147 /* zhibo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = zhibo.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		1928E3F023015F2300AE0147 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1928E3F223015F2300AE0147 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		1928E3F523015F2300AE0147 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1928E3F723015F2700AE0147 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1928E3FA23015F2700AE0147 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1928E3FC23015F2700AE0147 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1928E40623015FA700AE0147 /* RecordVideoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordVideoViewController.swift; sourceTree = "<group>"; };
 		1928E4092301626500AE0147 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
-		1928E40B230292A000AE0147 /* GPUImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GPUImageViewController.swift; sourceTree = "<group>"; };
-		1981DFC723040BE800B25C6A /* VideoPlugFlowViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlugFlowViewController.swift; sourceTree = "<group>"; };
-		1981DFCB2305290900B25C6A /* zhibo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "zhibo-Bridging-Header.h"; sourceTree = "<group>"; };
-		1981DFCC2305290A00B25C6A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		1981DFCD2305290A00B25C6A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		1981DFCF2305400A00B25C6A /* VideoPullFlowViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPullFlowViewController.swift; sourceTree = "<group>"; };
+		1980CB4F23069C10001A238F /* IJKMediaFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = IJKMediaFramework.framework; sourceTree = "<group>"; };
+		1980CB5223069CBB001A238F /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1980CB5423069CBB001A238F /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1980CB5623069CBB001A238F /* GPUImageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GPUImageViewController.swift; sourceTree = "<group>"; };
+		1980CB5723069CBB001A238F /* zhibo-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "zhibo-Bridging-Header.h"; sourceTree = "<group>"; };
+		1980CB5823069CBB001A238F /* RecordVideoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordVideoViewController.swift; sourceTree = "<group>"; };
+		1980CB5923069CBB001A238F /* VideoPlugFlowViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoPlugFlowViewController.swift; sourceTree = "<group>"; };
+		1980CB5A23069CBB001A238F /* VideoPullFlowViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoPullFlowViewController.swift; sourceTree = "<group>"; };
 		47A51C346E63216796F61001 /* Pods-zhibo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-zhibo.debug.xcconfig"; path = "Target Support Files/Pods-zhibo/Pods-zhibo.debug.xcconfig"; sourceTree = "<group>"; };
 		A34113144791ED3538C9E86F /* Pods_zhibo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_zhibo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -47,6 +46,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1980CB5023069C10001A238F /* IJKMediaFramework.framework in Frameworks */,
 				1928E40A2301626500AE0147 /* AVFoundation.framework in Frameworks */,
 				4769141943756AF8B241E873 /* Pods_zhibo.framework in Frameworks */,
 			);
@@ -76,19 +76,14 @@
 		1928E3EF23015F2300AE0147 /* zhibo */ = {
 			isa = PBXGroup;
 			children = (
-				1928E3F023015F2300AE0147 /* AppDelegate.swift */,
-				1928E3F223015F2300AE0147 /* ViewController.swift */,
+				1980CB5723069CBB001A238F /* zhibo-Bridging-Header.h */,
+				1980CB5123069CBB001A238F /* appdelegate */,
+				1980CB5323069CBB001A238F /* Main */,
+				1980CB4E23069C10001A238F /* Third */,
 				1928E3F423015F2300AE0147 /* Main.storyboard */,
 				1928E3F723015F2700AE0147 /* Assets.xcassets */,
 				1928E3F923015F2700AE0147 /* LaunchScreen.storyboard */,
 				1928E3FC23015F2700AE0147 /* Info.plist */,
-				1928E40623015FA700AE0147 /* RecordVideoViewController.swift */,
-				1928E40B230292A000AE0147 /* GPUImageViewController.swift */,
-				1981DFC723040BE800B25C6A /* VideoPlugFlowViewController.swift */,
-				1981DFCC2305290A00B25C6A /* ViewController.h */,
-				1981DFCD2305290A00B25C6A /* ViewController.m */,
-				1981DFCB2305290900B25C6A /* zhibo-Bridging-Header.h */,
-				1981DFCF2305400A00B25C6A /* VideoPullFlowViewController.swift */,
 			);
 			path = zhibo;
 			sourceTree = "<group>";
@@ -100,6 +95,34 @@
 				A34113144791ED3538C9E86F /* Pods_zhibo.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1980CB4E23069C10001A238F /* Third */ = {
+			isa = PBXGroup;
+			children = (
+				1980CB4F23069C10001A238F /* IJKMediaFramework.framework */,
+			);
+			path = Third;
+			sourceTree = "<group>";
+		};
+		1980CB5123069CBB001A238F /* appdelegate */ = {
+			isa = PBXGroup;
+			children = (
+				1980CB5223069CBB001A238F /* AppDelegate.swift */,
+			);
+			path = appdelegate;
+			sourceTree = "<group>";
+		};
+		1980CB5323069CBB001A238F /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				1980CB5423069CBB001A238F /* ViewController.swift */,
+				1980CB5623069CBB001A238F /* GPUImageViewController.swift */,
+				1980CB5823069CBB001A238F /* RecordVideoViewController.swift */,
+				1980CB5923069CBB001A238F /* VideoPlugFlowViewController.swift */,
+				1980CB5A23069CBB001A238F /* VideoPullFlowViewController.swift */,
+			);
+			path = Main;
 			sourceTree = "<group>";
 		};
 		B7C7B167DAFE739BFA424682 /* Pods */ = {
@@ -227,13 +250,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1981DFCE2305290A00B25C6A /* ViewController.m in Sources */,
-				1981DFC823040BE800B25C6A /* VideoPlugFlowViewController.swift in Sources */,
-				1928E3F323015F2300AE0147 /* ViewController.swift in Sources */,
-				1981DFD02305400A00B25C6A /* VideoPullFlowViewController.swift in Sources */,
-				1928E40C230292A000AE0147 /* GPUImageViewController.swift in Sources */,
-				1928E40723015FA700AE0147 /* RecordVideoViewController.swift in Sources */,
-				1928E3F123015F2300AE0147 /* AppDelegate.swift in Sources */,
+				1980CB6023069CBB001A238F /* RecordVideoViewController.swift in Sources */,
+				1980CB6123069CBB001A238F /* VideoPlugFlowViewController.swift in Sources */,
+				1980CB6223069CBB001A238F /* VideoPullFlowViewController.swift in Sources */,
+				1980CB5F23069CBB001A238F /* GPUImageViewController.swift in Sources */,
+				1980CB5D23069CBB001A238F /* ViewController.swift in Sources */,
+				1980CB5C23069CBB001A238F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -383,6 +405,11 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = E5YRJH7CWP;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Third",
+					"$(PROJECT_DIR)/zhibo/Third",
+				);
 				INFOPLIST_FILE = zhibo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -406,6 +433,11 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = E5YRJH7CWP;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Third",
+					"$(PROJECT_DIR)/zhibo/Third",
+				);
 				INFOPLIST_FILE = zhibo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
