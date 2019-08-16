@@ -64,15 +64,16 @@ class VideoPullFlowViewController: UIViewController {
         
     }
     @objc func buttonClick(button:UIButton){
-        if button.isSelected {
+        if !button.isSelected {
             
             button.isSelected = true
-            self.player.play()
+            self.player.pause()
             
         }else{
             
             button.isSelected = false
-            self.player.pause()
+            
+            self.player.play()
         }
         
     }
