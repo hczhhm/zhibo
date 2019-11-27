@@ -5,7 +5,7 @@
 //  Created by huangczh on 2019/8/12.
 //  Copyright © 2019 ZH-ZHG. All rights reserved.
 //
-//https://blog.csdn.net/dolacmeng/article/details/81268622
+
 import UIKit
 import AVFoundation
 import SnapKit
